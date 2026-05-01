@@ -42,7 +42,7 @@ Pair-level counts are not unique docket counts because some dockets contain mult
 |-- figures/                        # Generated charts for GitHub and presentations
 |-- notebooks/
 |   `-- archive/                    # Original exploratory notebook
-|-- reports/                        # Summary metrics, and writing sample
+|-- reports/                        # Summary metrics, and writing sample/paper
 |-- src/fda_research/
 |   |-- analyze_2011.py             # Reproducible analysis and figure generation
 |   `-- extract_fields_ollama.py    # Original extraction pipeline using Ollama and OCR
@@ -66,8 +66,6 @@ This writes refreshed outputs to `reports/` and `figures/`.
 
 - `reports/key_metrics.md`
 - `reports/writing_sample/Kyaw_Min_Khant_FDA_Citizen_Petitions_Research_Paper.pdf`
-- `reports/writing_sample/Kyaw_Min_Khant_FDA_Citizen_Petitions_Research_Paper.docx`
-- `reports/writing_sample/Kyaw_Min_Khant_FDA_Citizen_Petitions_Research_Paper.md`
 - `reports/summary_statistics.csv`
 - `reports/response_category_counts.csv`
 - `reports/responding_center_counts.csv`

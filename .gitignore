@@ -1,0 +1,35 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.Rhistory
+
+# Legacy root-level working files kept locally but not published.
+/Research.ipynb
+/fda_2011_decision_rates_by_category.csv
+/fda_2011_petition_categories.csv
+/petition_results*.xlsx
+/response_results*.xlsx
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+
+# Large local source artifacts
+*.zip
+*.pdf
+!reports/**/*.pdf
+all_files/
+organized/
+data/raw_pdfs/
+outputs/
+reports/writing_sample/rendered/
+
+# Keep processed CSVs, but avoid accidentally adding ad hoc spreadsheet exports.
+*.xlsx
+*.docx
+!reports/**/*.docx
+!data/**/*.csv

@@ -1,0 +1,14 @@
+metric,value
+raw_document_records,652.0
+raw_document_dockets,156.0
+petition_rows_validated,129.0
+petition_dockets,96.0
+response_rows_validated,120.0
+response_dockets,87.0
+matched_petition_response_pairs,87.0
+valid_nonnegative_response_pairs,64.0
+valid_response_pair_dockets,41.0
+pairs_with_response_within_150_days,3.0
+pairs_with_response_within_200_days,43.0
+median_response_days,182.5
+mean_response_days,562.5
